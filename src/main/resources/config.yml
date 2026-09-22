@@ -1,0 +1,11 @@
+minecart:
+  max-speed:
+    min: 8
+    max: 8
+  boost-block: REDSTONE_BLOCK
+
+enchanting:
+  repair:
+    too-expensive: 40
+    multiplier: 1
+  use-enchantment-level-for-cost: true

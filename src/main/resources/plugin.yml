@@ -1,0 +1,4 @@
+name: bambusmc
+version: '${project.version}'
+main: io.qacow37.bambusmc.Plugin
+api-version: '1.16'
