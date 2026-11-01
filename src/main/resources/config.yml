@@ -3,7 +3,7 @@ minecart:
   max-speed:
     min: 8
     max: 8
-  boost-block: REDSTONE_BLOCK
+  boost-block: "minecraft:redstone_block"
 
 anvil:
   enabled: false
@@ -16,6 +16,7 @@ enchanting:
   enabled: false
   level-as-cost: false
   disabled-enchantments:
+    - "minecraft:mending"
 
 farmland:
   enabled: false
@@ -24,3 +25,4 @@ farmland:
 villager:
   enabled: false
   disabled-jobs:
+    - "minecraft:farmer"
