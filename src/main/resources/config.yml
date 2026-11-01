@@ -1,11 +1,26 @@
 minecart:
+  enabled: false
   max-speed:
     min: 8
     max: 8
   boost-block: REDSTONE_BLOCK
 
-enchanting:
-  repair:
-    too-expensive: 40
+anvil:
+  enabled: false
+  too-expensive: 40
+  cost:
+    additional: 0
     multiplier: 1
-  use-enchantment-level-for-cost: true
+
+enchanting:
+  enabled: false
+  level-as-cost: false
+  disabled-enchantments:
+
+farmland:
+  enabled: false
+  protect: false
+
+villager:
+  enabled: false
+  disabled-jobs:
